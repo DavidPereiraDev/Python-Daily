@@ -29,7 +29,6 @@ class Pilha:
 expressao = input("Escreva uma expressão: ")
 pilha_parenteses = Pilha()
 parenteses_validos = True
-
 for caractere in expressao:
     if caractere == "(":
         pilha_parenteses.push(caractere)
